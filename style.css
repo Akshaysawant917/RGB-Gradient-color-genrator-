@@ -1,0 +1,41 @@
+body {
+    background-image: linear-gradient(
+        to right top,
+        #0255c4,
+        #56af80
+    );
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.colorid {
+    margin-top: 20px;
+    font-size: 14px;
+    font-family: monospace;
+}
+
+h4 {
+    margin-top: 10px;
+}
+
